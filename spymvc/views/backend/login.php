@@ -72,19 +72,7 @@
       </div>
     </form>
 
-<?php
-if(isset($options['enable_registration']) && $options['enable_registration'] == true)
-{
-?>
-    <div class="social-auth-links text-center">
-      <p>- OR -</p>
-        <div class="col-12" class="floatright">
-          <a href="<?php echo $burl; ?>admin/register" class="btn btn-success btn-block text-white"><?php echo $lang['register']; ?></a>
-        </div>
-    </div>
-<?php
-}
-?>
+
   </div>
 </div>
   <!-- /.login-box-body -->
